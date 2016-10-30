@@ -1,1 +1,8 @@
-!*.sublime-smippet
+#ignore everything:
+*
+
+#Except sublime-snippets:
+!*.sublime-snippet
+
+#Even if they are in subdirectories:
+!*/

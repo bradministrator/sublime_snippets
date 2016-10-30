@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+data-toggle="tooltip" data-placement="${1:top}" title="${2:tooltip_text}"
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bstooltip</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
