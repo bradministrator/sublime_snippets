@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<%= form_for ${1:identifier} do |f| %>
+	${2:}
+<% end #form_for %>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>formfor</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
