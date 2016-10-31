@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+div.row>div.container-fluid>div.question_frame>div.row>div.col-sm-5{${1:left}}+div.col-sm-2{${2:right}}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>edsec</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<%= render partial: 'form_row', locals: {label_html: '${1:label_text}', control_html: ${2:form_builder}.select(:${4:field_name}, options_for_select(${5:options}), {include_blank: 'Select'}, {class: 'persist form-control'})} %>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>form_row_select</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

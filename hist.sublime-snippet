@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+select c.fname, c.lname, c.email, c.HomePhone, e.* from history h
+inner join contact c on h.DialID = c.DialID
+inner join edudata e on h.DialID = e.DialID
+where cast(h.CallDateTime as date) = '${1:date}'
+and h.CRC = 'ENROL'
+and c.HomePhone = '${2:phone_number}'
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>hist</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
