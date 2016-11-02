@@ -1,7 +1,11 @@
 <snippet>
 	<content><![CDATA[
 	def initialize(args)
+		#Customize the initialize method
+		${1:}
 
+		@errors =[]
+		@valid = true
 	end
 
 	def validate
@@ -15,6 +19,10 @@
 	def get_result
 
 	end
+
+private
+	#implement all domain specific validation as private instance methods
+
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ifvalidator</tabTrigger>
