@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+	def initialize(args)
+
+	end
+
+	def validate
+
+	end
+
+	def is_valid?
+
+	end
+
+	def get_result
+
+	end
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ifvalidator</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
