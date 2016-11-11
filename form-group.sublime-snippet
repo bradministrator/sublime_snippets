@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group row ${1:col-sm-6} ${2:col-sm-offset-3}">
+	<%= ${3:form_builder}.label(${4:field_identifier}) %>
+	<%= ${3:form_builder}.${5:text_field}(${4:field_identifier}, {class: 'form-control'}) %>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bsformgroup</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
