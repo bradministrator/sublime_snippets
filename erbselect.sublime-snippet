@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<%= ${1:form_builder}.select(${2:field_identifier}, options_for_select(${3:select_options}), {include_blank: ${4:true_false_string}}, ${5:html_options}) %>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>erbselect</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
