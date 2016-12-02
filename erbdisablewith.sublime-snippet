@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+data: {disable_with: "<i class='fa fa-spinner fa-spin'></i> ${1:disable_text}"}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>erbdisablewith</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
