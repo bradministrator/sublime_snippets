@@ -1,7 +1,15 @@
 <snippet>
 	<content><![CDATA[
-<%= form_for ${1:identifier} do |f| %>
-	${2:}
+<%# options: %>
+<%# 	url: named-route | string-url | action:/controller: pair %>
+<%# 	namespace: string/symbol to ensure uniqueness of id attributes on form elements %>
+<%# 	method: get | post | patch | put | delete %>
+<%# 	authenticity_token: false - prevents generation of auth tokens %>
+<%# 	remote: true|false - true == ajax %>
+<%# 	enforce_utf8: %>
+<%# 	html: %>
+<%= form_for ${1:@record}, {url: ${2:}, method: ${3:get/post}, remote: ${4:true/false}} do |f| %>
+	${5:}
 <% end #form_for %>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
