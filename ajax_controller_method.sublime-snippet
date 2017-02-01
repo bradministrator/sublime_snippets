@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+def ${1:method_name}
+	logger.debug "\n\nparams.inspect --> #{params.inspect}\n\n"
+	response_data = Hash.new
+	
+	${2:#implement:}
+
+	render json: response_data
+end
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ajax_controller_method</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
