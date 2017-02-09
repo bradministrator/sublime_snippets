@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\$.each(${1:array}, function(idx, value){
+	${2:do_stuff}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jqeacharray</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
