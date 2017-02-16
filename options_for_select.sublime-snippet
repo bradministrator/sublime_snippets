@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+options_for_select(${1:container or array}, ${2:selected})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>options_for_select</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
