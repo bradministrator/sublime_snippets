@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<a href="javascript:void(0);" id="${1:btn_id}" class='btn btn-primary btn-sm'>${2:btn_text}</a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>htmlbsbtn</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
