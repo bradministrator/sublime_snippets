@@ -1,6 +1,12 @@
+<!--
+be sure to enter the following under Preferences -> Key bindings (adjust as desired)
+[
+	{"keys": ["ctrl+shift+."], "command": "insert_snippet", "args": {"name": "Packages/User/erb.sublime-snippet"}}
+]
+-->
 <snippet>
 	<content><![CDATA[
-<% ${1:} %>
+<%= ${1:} %>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>erb</tabTrigger>
