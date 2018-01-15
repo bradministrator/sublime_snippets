@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<div id="${1:id}" class="modal fade">
+<div id="${1:modal_id}" class="modal fade">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -16,6 +16,13 @@
 		</div>
 	</div>
 </div>
+<script>
+	\$().ready(function(){
+		\$("#${5:button_id}").click(function(){
+			\$("#${1:modal_id}").modal();
+		});
+	});
+</script>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>bsmodal</tabTrigger>
