@@ -1,3 +1,15 @@
+<!--
+	To set keyboard shortcut [ctrl + shift + .] (same as RubyMine)
+
+	Preferences -> Key Bindings
+
+	Add the following to the array:
+		{
+			"keys": ["ctrl+shift+."], 
+			"command": "insert_snippet", 
+			"args": {"name":"Packages/User/erb_escape.sublime-snippet"}
+		}
+-->
 <snippet>
 	<content><![CDATA[
 <%= ${1:} %>
